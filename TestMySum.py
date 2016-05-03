@@ -16,6 +16,5 @@ class TestMySum(unittest.TestCase):
 
 
 if __name__=="__main__":
-    print "Thanks for running me!"
-else:
-    print "Thanks for importing me!"
+    unittest.main()
+    
