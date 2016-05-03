@@ -11,7 +11,7 @@ class TestMySum(unittest.TestCase):
     def test_mySum_c(self):
         self.assertEqual(mySum([7, 3]), 10)
 
-    def test_mySum_c(self):
+    def test_mySum_d(self):
         self.assertEqual(mySum([7, 3, 1, 2, 3]), 16)
 
 
