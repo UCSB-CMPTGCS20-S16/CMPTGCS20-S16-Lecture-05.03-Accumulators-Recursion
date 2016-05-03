@@ -1,3 +1,8 @@
 
 def mySum(myList):
-    return "stub"
+
+    result = 0 
+    for x in myList:
+        result = result + x
+    return result
+
