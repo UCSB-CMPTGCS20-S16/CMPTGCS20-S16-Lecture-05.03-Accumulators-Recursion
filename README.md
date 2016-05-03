@@ -27,8 +27,18 @@ TWO APPROACHES:
 * Accumulators with for loops
 * Recursion on lists
 
-Two kinds of equals: = vs ==
+Rules for identifiers:
 
+By identifiers, we mean:
+
+* variable names
+* function names
+* later: class and method names
+* module names (file name of something we are going to "import", with the .py on it.)
+
+
+Two kinds of equals: = vs ==
+----------------------------
 ```
 x = y     
 ```
