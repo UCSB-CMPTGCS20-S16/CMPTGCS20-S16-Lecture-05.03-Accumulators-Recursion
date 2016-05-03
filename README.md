@@ -26,3 +26,12 @@ TWO APPROACHES:
 
 * Accumulators with for loops
 * Recursion on lists
+
+Misc Other
+==========
+
+To change your unix prompt to `'$ '` use:
+
+```
+export PS1='$ '
+```
