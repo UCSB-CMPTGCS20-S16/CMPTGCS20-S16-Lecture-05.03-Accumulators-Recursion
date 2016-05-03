@@ -27,6 +27,49 @@ TWO APPROACHES:
 * Accumulators with for loops
 * Recursion on lists
 
+Two kinds of equals: = vs ==
+
+```
+x = y     
+```
+
+Makes x become a name for the value that y currently has.
+
+```
+x == y
+```
+
+Asks the question: do x and y refer to the same value?  The result of this is either `True` and `False`
+
+
+Examples:
+
+```
+>>> 2 + 2 == 4
+True
+>>> 3 + 5 == -7
+False
+>>> x = 4
+>>> 2 + 2 == x
+True
+>>> 5 = x
+SyntaxError: can't assign to literal
+>>> x = 7
+>>> x == 7
+True
+>>> 7 == x
+True
+>>> 7 == 5
+False
+>>> 7 == x
+True
+>>> 5 == x
+False
+>>> 5 = x
+SyntaxError: can't assign to literal
+>>> 
+```
+
 Misc Other
 ==========
 
