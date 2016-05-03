@@ -17,3 +17,12 @@ Type "copyright", "credits" or "license()" for more information.
 20
 >>> 
 ```
+
+* If you just want to solve a problem, you should NOT rewrite basic functions such as min, max, sum---use the built-in ones.
+* On the other hand, if you are trying to LEARN HOW TO PROGRAM, these are great practice problems.
+
+TWO APPROACHES:
+==============
+
+* Accumulators with for loops
+* Recursion on lists
