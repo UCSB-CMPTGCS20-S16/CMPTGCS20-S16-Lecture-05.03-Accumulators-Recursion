@@ -1,4 +1,5 @@
 import unittest
+from mySum import mySum
 
 class TestMySum(unittest.TestCase):
 
