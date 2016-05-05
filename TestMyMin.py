@@ -4,6 +4,12 @@ from myMin import myMin
 
 class TestMyMin(unittest.TestCase):
 
+    def test_myMin_not_list_but_rather_string(self):
+        self.assertEqual(myMin("foobar"),False)
+
+    def test_myMin_not_list_but_rather_int(self):
+        self.assertEqual(myMin(4),False)
+
     def test_myMin_a(self):
         self.assertEqual(myMin([]),False)
 
@@ -18,3 +24,8 @@ class TestMyMin(unittest.TestCase):
 
     def test_myMin_e(self):
         self.assertEqual(myMin([5,16,32,24,3]),3)
+
+
+if __name__ == "__main__":
+    unittest.main()
+    
