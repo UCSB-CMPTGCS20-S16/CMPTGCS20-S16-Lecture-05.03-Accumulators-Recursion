@@ -117,3 +117,39 @@ def myMin(someList):
     
     return result
 ```
+
+For loops on lists
+==================
+
+```
+>>> schools=["UCSB","UCR","UCI"]
+>>> for x in schools:
+	print x
+
+	
+UCSB
+UCR
+UCI
+>>> for x in schools:
+	print len(x)
+
+	
+4
+3
+3
+>>> for i in range(len(schools)):
+	print i
+
+	
+0
+1
+2
+>>> for i in range(len(schools)):
+	print schools[i]
+
+	
+UCSB
+UCR
+UCI
+>>> 
+```
